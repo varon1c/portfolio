@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#e9f0e9">
+    <meta name="description" content="Charles Jansen — computer science student building practical software, scalable systems, and real-time vision tools.">
+    <title>Charles Jansen — Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='20' fill='%23588061'/%3E%3Ctext x='20' y='27' text-anchor='middle' font-family='Arial' font-size='22' font-weight='700' fill='white'%3Ec%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <script src="camera-demo.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="navigation" aria-label="Main navigation">
+        <a class="brand" href="#about" aria-label="Charles Jansen, home">Charles Jansen</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation-links">
+          <span class="sr-only">Toggle navigation</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+        <div class="navigation-links" id="navigation-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#case-study">Case study</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.3A8.6 8.6 0 0 1 8.7 3.8 8.7 8.7 0 1 0 20.2 15.3Z"/></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <p class="hello-line">Hey there, I’m</p>
+        <h1 id="about-title">Charles <span>Jansen</span></h1>
+        <p class="role-line">Computer Science student <span aria-hidden="true">·</span> aspiring software developer</p>
+        <p class="education-line">BS Computer Science · Holy Angel University · Philippines</p>
+        <div class="profile-photo-frame">
+          <img class="profile-photo" src="profile.jpg" alt="Charles Jansen">
+        </div>
+        <div class="bio">
+          <p>I enjoy building practical software, solving problems, and exploring how technology can make everyday tasks a little easier.</p>
+          <p>Every project is a chance to learn something new, make an idea real, and improve the details along the way.</p>
+          <p>When I’m away from the keyboard, I’m probably out for a bike ride or at the gym</p>
+        </div>
+        <div class="social-links">
+          <a class="social-icon-link" href="https://github.com/varon1c" target="_blank" rel="noreferrer" aria-label="Charles Jansen on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.24-1.62-1.24-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.59 1.21 3.22.93.1-.72.39-1.21.7-1.49-2.47-.28-5.06-1.24-5.06-5.51 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.28-2.6 5.22-5.08 5.5.4.35.75 1.02.75 2.06v3.08c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+          </a>
+          <a class="social-icon-link" href="https://www.linkedin.com/in/charles-manusig-025b12334/" target="_blank" rel="noreferrer" aria-label="Charles Jansen on LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.9H4.97V9.38h2.96v9.52ZM6.45 8.08a1.72 1.72 0 1 1 0-3.44 1.72 1.72 0 0 1 0 3.44Zm12.45 10.82h-2.95v-4.63c0-1.1-.02-2.52-1.54-2.52-1.54 0-1.78 1.2-1.78 2.44v4.71H9.68V9.38h2.83v1.3h.04c.39-.74 1.36-1.52 2.8-1.52 2.99 0 3.55 1.97 3.55 4.54v5.2Z"/></svg>
+          </a>
+          <a class="social-icon-link" href="https://www.instagram.com/8klud/" target="_blank" rel="noreferrer" aria-label="Charles Jansen on Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-3.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/></svg>
+          </a>
+        </div>
+        <a class="scroll-hint" href="#projects"><span aria-hidden="true">↓</span> Scroll to explore</a>
+      </section>
+
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <section class="projects-section section" id="projects" aria-labelledby="projects-title">
+        <p class="section-kicker">A little of what I’ve been building</p>
+        <h2 id="projects-title">Projects</h2>
+        <p class="section-intro">From useful everyday tools to cloud-connected apps, these projects turn practical challenges into working software.</p>
+        <div class="project-controls">
+          <div class="project-filters" role="group" aria-label="Filter projects">
+            <button type="button" class="filter-button is-selected" data-filter="all" aria-pressed="true">All work</button>
+            <button type="button" class="filter-button" data-filter="web" aria-pressed="false">Web apps</button>
+            <button type="button" class="filter-button" data-filter="vision" aria-pressed="false">Computer vision</button>
+            <button type="button" class="filter-button" data-filter="systems" aria-pressed="false">Systems</button>
+          </div>
+          <div class="carousel-controls">
+            <span class="project-count" aria-live="polite">Showing <span id="project-count">6</span> projects</span>
+            <button class="carousel-button" type="button" data-scroll="previous" aria-label="Scroll projects left" disabled>←</button>
+            <button class="carousel-button" type="button" data-scroll="next" aria-label="Scroll projects right">→</button>
+          </div>
+        </div>
+        <div class="project-carousel" id="project-carousel" aria-label="Featured project cards" aria-roledescription="carousel" tabindex="0"></div>
+        <p class="project-caption">Select a project to explore the details. Swipe or use the arrows to browse.</p>
+      </section>
+
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <section class="experience-section section" id="experience" aria-labelledby="experience-title">
+        <p class="section-kicker">More ways I put software to work</p>
+        <h2 id="experience-title">Systems beyond the screen</h2>
+        <p class="section-intro">Backend reliability and cloud infrastructure are part of building software that works in the real world.</p>
+        <div class="experience-grid">
+          <article class="experience-card">
+            <p class="experience-index">01 / BACKEND ENGINEERING</p>
+            <h3>HAUnted Sightings</h3>
+            <p>A community platform and REST API for reporting, validating, and tracking local sightings.</p>
+            <ul>
+              <li>Implemented backend API endpoints.</li>
+              <li>Built custom Express middleware.</li>
+              <li>Added data-validation modules.</li>
+            </ul>
+          </article>
+          <article class="experience-card">
+            <p class="experience-index">02 / CLOUD INFRASTRUCTURE</p>
+            <h3>Multi-region AWS</h3>
+            <p>A cross-region network connecting VPCs in Paris and North Virginia with compute and managed database resources.</p>
+            <ul>
+              <li>Configured VPC peering and network routes.</li>
+              <li>Set up EC2 and security groups.</li>
+              <li>Worked on an RDS database migration.</li>
+            </ul>
+          </article>
+        </div>
+        <div class="focus-strip">
+          <p><strong>Research:</strong> Lightweight EyeCNN models for eye-state classification in changing lighting.</p>
+          <p><strong>Personal projects:</strong> TradeJournal supports systematic chart analysis and risk tracking.</p>
+          <p><strong>Outside the code:</strong> Daily bike rides and time at the gym.</p>
+        </div>
+      </section>
+
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <section class="case-section section" id="case-study" aria-labelledby="case-title">
+        <p class="section-kicker">A closer look</p>
+        <h2 id="case-title">Eyes open. Stay alert.</h2>
+        <p class="section-intro">A closer look at the real-time driver drowsiness detector, combining webcam analysis with phone alerts over a local hotspot.</p>
+        <div class="case-layout">
+          <div class="case-copy">
+            <div class="case-tabs" role="tablist" aria-label="Drowsiness detector case study">
+              <button id="case-tab-problem" type="button" role="tab" aria-selected="true" aria-controls="case-panel-problem" tabindex="0">The challenge</button>
+              <button id="case-tab-approach" type="button" role="tab" aria-selected="false" aria-controls="case-panel-approach" tabindex="-1">The approach</button>
+              <button id="case-tab-results" type="button" role="tab" aria-selected="false" aria-controls="case-panel-results" tabindex="-1">The workflow</button>
+            </div>
+            <div class="case-panel" id="case-panel-problem" role="tabpanel" aria-labelledby="case-tab-problem" tabindex="0">
+              <h3>How can a system tell a long eye closure from a normal blink?</h3>
+              <p>The detector watches for several signs of drowsiness, not just a single blink. It analyzes webcam frames and can alert a paired Android phone over a local hotspot, without internet access.</p>
+              <ul><li>Combines eye shape and a CNN eye-state model.</li><li>Tracks longer-term closure with PERCLOS.</li><li>Can also flag yawning and looking away.</li></ul>
+            </div>
+            <div class="case-panel" id="case-panel-approach" role="tabpanel" aria-labelledby="case-tab-approach" tabindex="0" hidden>
+              <h3>Independent signals help make the detection more robust.</h3>
+              <p>The Python and OpenCV pipeline uses Eye Aspect Ratio (EAR) alongside a compact CNN to judge eye closure. It also measures mouth opening and head pose, with calibration to adapt thresholds to the driver.</p>
+              <ul><li>EAR and CNN signals can be fused.</li><li>Yawn and head-direction checks add context.</li><li>Thresholds can be calibrated for each driver.</li></ul>
+            </div>
+            <div class="case-panel" id="case-panel-results" role="tabpanel" aria-labelledby="case-tab-results" tabindex="0" hidden>
+              <h3>Detect on the laptop. Alert the phone locally.</h3>
+              <p>The laptop analyzes a webcam feed and sends an alert to the Android companion app over the phone’s hotspot. Try the camera demo to see face landmarks and simple eye-closure and mouth-opening cues processed in your browser.</p>
+              <ul><li>Run the detector with a webcam or supported camera source.</li><li>Pair the phone and laptop on the same hotspot.</li><li>Detection and alerts do not require internet access.</li></ul>
+            </div>
+          </div>
+          <div class="simulator detector-demo" aria-label="Browser-based camera detection demo">
+            <div class="simulator-header">
+              <div><p class="simulator-label">CAMERA DEMO</p><h3>Try the detection</h3></div>
+              <span class="demo-badge">ON DEVICE</span>
+            </div>
+            <div class="connection-status"><span class="connection-dot" aria-hidden="true"></span><span id="detection-status-label">Camera is off</span><span class="status-meta" id="detection-score">LOCAL PROCESSING</span></div>
+            <div class="camera-stage">
+              <video id="detection-video" autoplay muted playsinline aria-label="Live camera preview for the drowsiness demo"></video>
+              <span class="camera-stage-label" id="camera-stage-label">Camera preview appears here when you start the demo</span>
+            </div>
+            <div class="detector-log" id="detection-log" role="status" aria-live="polite">Start the demo to request camera permission. Your video is analyzed in this browser and is not uploaded.</div>
+            <div class="simulator-actions">
+              <button class="simulator-button simulator-primary" type="button" id="start-detection">Start camera demo</button>
+              <button class="simulator-button" type="button" id="stop-detection" disabled>Stop camera</button>
+            </div>
+            <p class="simulator-note">Uses an on-device face-landmark model for a simplified demo; it is not the project’s EAR + CNN detector. Camera permission is requested only when you start. Model files download from Google on first use; video stays on this device.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <section class="skills-section section" id="skills" aria-labelledby="skills-title">
+        <p class="section-kicker">Things I’m learning by doing</p>
+        <h2 id="skills-title">Skills &amp; tools</h2>
+        <p class="section-intro">Choose a technology to see where it appears in the featured projects.</p>
+        <div class="skill-groups" id="skill-groups"></div>
+        <p class="skill-feedback" id="skill-feedback" role="status" aria-live="polite">Select a skill to highlight related projects.</p>
+      </section>
+
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <section class="certifications-section section" id="certifications" aria-labelledby="certifications-title">
+        <p class="section-kicker">Learning, one credential at a time</p>
+        <h2 id="certifications-title">Licenses &amp; Certifications</h2>
+        <p class="section-intro">A selection of certificates and training badges from Cisco, AWS, IBM SkillsBuild, and Coursera.</p>
+        <div class="certification-grid">
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-cisco" aria-hidden="true">CISCO</span><div><h3>Endpoint Security</h3><p>Cisco</p></div></div>
+            <p class="certification-date">Issued August 2025</p>
+            <a class="certification-link" href="https://www.credly.com/badges/9e50cb8d-7ca3-4225-854c-9570ef4da23b/public_url" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+            <p class="certification-skills"><strong>Skills:</strong> Application Security</p>
+          </article>
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-cisco" aria-hidden="true">CISCO</span><div><h3>Data Analytics Essentials</h3><p>Cisco</p></div></div>
+            <p class="certification-date">Issued March 2026</p>
+            <a class="certification-link" href="https://www.credly.com/badges/0f2d8208-e318-41ec-ab57-7a1cb432bdd6/public_url" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+            <p class="certification-skills"><strong>Skills:</strong> Data Analysis, Data Storytelling, and 2 more</p>
+          </article>
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-cisco" aria-hidden="true">CISCO</span><div><h3>Cyber Threat Management</h3><p>Cisco</p></div></div>
+            <p class="certification-date">Issued November 2025</p>
+            <a class="certification-link" href="https://www.credly.com/badges/fcbd21db-1101-4024-95dd-cfc9610cd8ed/public_url" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+            <p class="certification-skills"><strong>Skills:</strong> Disaster Recovery, Incident Response, and 4 more</p>
+          </article>
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-cisco" aria-hidden="true">CISCO</span><div><h3>CCNA: Introduction to Networks</h3><p>Cisco</p></div></div>
+            <p class="certification-date">Issued April 2026</p>
+            <a class="certification-link" href="https://www.credly.com/badges/4639bd82-5a63-4b6e-aca9-fc461d57f844/public_url" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+            <p class="certification-skills"><strong>Skills:</strong> Ethernet</p>
+          </article>
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-aws" aria-hidden="true">AWS</span><div><h3>AWS Academy Graduate - Cloud Foundations - Training Badge</h3><p>Amazon Web Services Training and Certification</p></div></div>
+            <p class="certification-date">Issued March 2026</p>
+            <a class="certification-link" href="https://www.credly.com/badges/af50b4e8-149f-44b2-8b7e-f99644feedaa/public_url" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+            <p class="certification-skills"><strong>Skills:</strong> AWS Support</p>
+          </article>
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-ibm" aria-hidden="true">IBM</span><div><h3>Artificial Intelligence Fundamentals</h3><p>Student Ambassador Program with IBM SkillsBuild</p></div></div>
+            <p class="certification-date">Issued March 2026</p>
+            <a class="certification-link" href="https://www.credly.com/badges/a61f9e26-8712-482c-a966-b450ff7973d3/public_url" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+            <p class="certification-skills"><strong>Skills:</strong> AI Ethics, Artificial Neural Networks, and 3 more</p>
+          </article>
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-cisco" aria-hidden="true">CISCO</span><div><h3>AI Fundamentals with IBM SkillsBuild</h3><p>Cisco</p></div></div>
+            <p class="certification-date">Issued March 2026</p>
+            <a class="certification-link" href="https://www.credly.com/earner/earned/share/a61f9e26-8712-482c-a966-b450ff7973d3" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+            <p class="certification-skills"><strong>Skills:</strong> AI Ethics</p>
+          </article>
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-coursera" aria-hidden="true">C</span><div><h3>Work with Components in Figma</h3><p>Coursera</p></div></div>
+            <p class="certification-date">Issued September 2024</p>
+            <a class="certification-link" href="https://www.coursera.org/account/accomplishments/verify/V5773UBTEOOH" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="certification-card">
+            <div class="certification-heading"><span class="certification-mark mark-cisco" aria-hidden="true">CISCO</span><div><h3>JavaScript Essentials 1</h3><p>Cisco</p></div></div>
+            <p class="certification-date">Issued October 2024</p>
+            <a class="certification-link" href="https://www.credly.com/badges/be531990-1123-4099-b942-55e49b991bea/linked_in_profile" target="_blank" rel="noopener noreferrer">Show credential <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <section class="contact-section section" id="contact" aria-labelledby="contact-title">
+        <p class="section-kicker">Have a question or an idea?</p>
+        <h2 id="contact-title">Leave a message!</h2>
+        <p class="section-intro">Have a question or want to talk about a project? Send me an email or find me on GitHub.</p>
+        <div class="contact-actions">
+          <a class="contact-button" href="mailto:charlesjansenmanusig@gmail.com">charlesjansenmanusig@gmail.com <span aria-hidden="true">↗</span></a>
+          <a class="contact-button" href="https://github.com/varon1c" target="_blank" rel="noreferrer">Open my GitHub profile <span aria-hidden="true">↗</span></a>
+          <button class="copy-button" type="button" id="copy-profile">Copy profile link</button>
+        </div>
+        <div class="social-links contact-social-links" aria-label="Social profiles">
+          <a class="social-icon-link" href="https://github.com/varon1c" target="_blank" rel="noreferrer" aria-label="Charles Jansen on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.24-1.62-1.24-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.59 1.21 3.22.93.1-.72.39-1.21.7-1.49-2.47-.28-5.06-1.24-5.06-5.51 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.28-2.6 5.22-5.08 5.5.4.35.75 1.02.75 2.06v3.08c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+          </a>
+          <a class="social-icon-link" href="https://www.linkedin.com/in/charles-manusig-025b12334/" target="_blank" rel="noreferrer" aria-label="Charles Jansen on LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.9H4.97V9.38h2.96v9.52ZM6.45 8.08a1.72 1.72 0 1 1 0-3.44 1.72 1.72 0 0 1 0 3.44Zm12.45 10.82h-2.95v-4.63c0-1.1-.02-2.52-1.54-2.52-1.54 0-1.78 1.2-1.78 2.44v4.71H9.68V9.38h2.83v1.3h.04c.39-.74 1.36-1.52 2.8-1.52 2.99 0 3.55 1.97 3.55 4.54v5.2Z"/></svg>
+          </a>
+          <a class="social-icon-link" href="https://www.instagram.com/8klud/" target="_blank" rel="noreferrer" aria-label="Charles Jansen on Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-3.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/></svg>
+          </a>
+        </div>
+        <p class="contact-note">Always happy to learn, build, and explore new ideas.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="current-year"></span> Charles Jansen</p>
+      <a href="#about">Back to top ↑</a>
+      <p>Made with care <span aria-hidden="true">✳</span></p>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-content">
+        <button class="dialog-close" type="button" aria-label="Close project details">×</button>
+        <div id="dialog-body"></div>
+      </div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>
